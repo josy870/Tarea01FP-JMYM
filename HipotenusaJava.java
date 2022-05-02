@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hipotenusa {
+public class HipotenusaJava {
     public static void main(String[] args) {
         //Definir variables
         double a, b, c;
@@ -13,6 +13,7 @@ public class Hipotenusa {
         //Proceso
         c=Math.sqrt(Math.pow(a, 2)+Math.pow(b, 2));
         //Datos de Salida
-        System.out.println("La hipotinusa: "+c);
+        System.out.println("La hipotenusa: "+c);
+        lt.close();
     }
 }
